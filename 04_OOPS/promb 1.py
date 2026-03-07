@@ -4,7 +4,7 @@ class car:
     def __init__(self,brand, model):
         self.brand = brand
         self.model = model
-        car.total =+ 1
+        car.total += 1
         
     def fuel_type(self):
         return "petrol and diesel"
