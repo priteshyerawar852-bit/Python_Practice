@@ -1,0 +1,17 @@
+
+
+total=0
+count=0
+while True:
+    n = int(input("enter a n: "))
+    if n==0:
+        break
+    else:
+        count = count +1
+        total=total+n
+
+avg = total/count
+
+print("avg is: ",avg)
+print("total is: ",total)
+
